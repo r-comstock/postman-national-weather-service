@@ -155,7 +155,8 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}alerts/active/count"
+						"url": "{{base_url}}alerts/active/count",
+						"description": "Get the active alerts count."
 					},
 					"response": []
 				},
@@ -194,7 +195,8 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}alerts/{{active_alert_id}}"
+						"url": "{{base_url}}alerts/{{active_alert_id}}",
+						"description": "Get active alerts by id."
 					},
 					"response": []
 				}
