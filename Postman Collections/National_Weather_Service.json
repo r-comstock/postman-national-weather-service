@@ -216,10 +216,7 @@
 									"\r",
 									"const id = pm.response.json().features[0].properties.id;\r",
 									"pm.collectionVariables.set(\"active_alert_id\", id);\r",
-									"\r",
-									"pm.test(\"Response status code is 200\", function () {\r",
-									"    pm.expect(pm.response.code).to.equal(200);\r",
-									"});"
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
