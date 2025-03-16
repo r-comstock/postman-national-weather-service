@@ -201,67 +201,6 @@
 			],
 			"id": "329b356f-f23d-43d2-9823-f57add6c07db",
 			"description": "Test the different alerts endpoints."
-		},
-		{
-			"name": "Alerts By Id",
-			"item": [
-				{
-					"name": "active alerts",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "d3a3a67e-f675-49df-9295-1f9038818f8e",
-								"exec": [
-									"\r",
-									"const id = pm.response.json().features[0].properties.id;\r",
-									"pm.collectionVariables.set(\"active_alert_id\", id);\r",
-									""
-								],
-								"type": "text/javascript",
-								"packages": {}
-							}
-						}
-					],
-					"id": "df41eaed-fb45-4dd8-9909-ccc8dd720b93",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": "{{base_url}}alerts/active"
-					},
-					"response": []
-				},
-				{
-					"name": "alerts by id",
-					"event": [
-						{
-							"listen": "prerequest",
-							"script": {
-								"id": "65052e81-9673-4343-8ea3-18b65ea377bf",
-								"exec": [
-									""
-								],
-								"type": "text/javascript",
-								"packages": {}
-							}
-						}
-					],
-					"id": "7b1543bb-b6f8-4b7e-bc07-3fcaf43658c0",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": "{{base_url}}alerts/{{active_alert_id}}"
-					},
-					"response": []
-				}
-			],
-			"id": "bf0a936c-40b1-43f0-ab24-1977d828ed3c"
 		}
 	],
 	"event": [
