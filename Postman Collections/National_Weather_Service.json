@@ -201,6 +201,11 @@
 			],
 			"id": "329b356f-f23d-43d2-9823-f57add6c07db",
 			"description": "Test the different alerts endpoints."
+		},
+		{
+			"name": "Alerts By Id",
+			"item": [],
+			"id": "bf0a936c-40b1-43f0-ab24-1977d828ed3c"
 		}
 	],
 	"event": [
