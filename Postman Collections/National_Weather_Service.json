@@ -180,7 +180,7 @@
 							"script": {
 								"id": "65052e81-9673-4343-8ea3-18b65ea377bf",
 								"exec": [
-									"pm.request."
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -242,7 +242,7 @@
 							"script": {
 								"id": "65052e81-9673-4343-8ea3-18b65ea377bf",
 								"exec": [
-									"pm.request."
+									""
 								],
 								"type": "text/javascript",
 								"packages": {}
